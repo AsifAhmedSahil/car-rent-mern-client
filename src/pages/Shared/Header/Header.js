@@ -1,16 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from "../../../assets/logo.svg"
+import logo from "../../../assets/Your car (100 × 100 px) (1).svg"
 
 const Header = () => {
 
     const MenuItem = <>
-        <li><Link to="/">Home</Link></li>
+        <li className='font-semibold'><Link to="/">Home</Link></li>
+        <li className='font-semibold'><Link to="/">About</Link></li>
+        <li className='font-semibold'><Link to="/">Services</Link></li>
+        <li className='font-semibold'><Link to="/">Brand</Link></li>
+        <li className='font-semibold'><Link to="/">Contact</Link></li>
     </>
 
   return (
     <div>
-        <div className="navbar bg-base-100">
+        <div className="navbar  flex justify-center items-center">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -21,7 +25,7 @@ const Header = () => {
        {MenuItem}
       </ul>
     </div>
-    <a href="/" className="btn btn-ghost normal-case text-xl">
+    <a href="/" className="mt-4  normal-case text-xl">
     <img src={logo} alt="" />
     </a>
   </div>
