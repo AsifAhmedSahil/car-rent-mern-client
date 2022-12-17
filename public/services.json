@@ -2,9 +2,10 @@
     {
         "_id": "635a0c0b64a6d231228942ae",
         "service_id": "04",
-        "title": "Engine Oil Change",
-        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
-        "price": "20.00",
+        "title": "Get a smart car like you.",
+        "img": "https://i.ibb.co/XCR3w0S/auto-gd88b67780-1920.jpg",
+        "price": "$300/hr",
+        "brand": "Mercedez ☮",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
         "facility": [
             {
@@ -28,9 +29,10 @@
     {
         "_id": "635a0c0b64a6d231228942af",
         "service_id": "05",
-        "title": "Battery Charge",
-        "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
-        "price": "20.00",
+        "title": "More power, less noise.",
+        "img": "https://i.ibb.co/hC3yw4B/car-g74d203ab4-1920.jpg",
+        "price": "$400/hr",
+        "brand": "Audi",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
         "facility": [
             {
@@ -54,9 +56,10 @@
     {
         "_id": "635b591a1dafe382a9da8c96",
         "service_id": "01",
-        "title": "Full car Repair",
-        "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
-        "price": "200.00",
+        "title": "Designed for action.",
+        "img": "https://i.ibb.co/0fRxdwd/ferrari-g477a65c82-1920.jpg",
+        "price": "$550/hr",
+        "brand": "Ferarry",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
         "facility": [
             {
@@ -80,9 +83,10 @@
     {
         "_id": "635b5afc1dafe382a9da8c98",
         "service_id": "02",
-        "title": "Engine Repair",
-        "img": "https://i.ibb.co/5MvmD2g/88.jpg",
-        "price": "150.00",
+        "title": "Designed for a smooth journey.",
+        "img": "https://i.ibb.co/TLDhPzf/bently-g4a6091ce0-1920.jpg",
+        "price": "$200/hr",
+        "brand": "Bently",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
         "facility": [
             {
@@ -106,9 +110,10 @@
     {
         "_id": "635b5b691dafe382a9da8c99",
         "service_id": "03",
-        "title": "Automatic Services",
-        "img": "https://i.ibb.co/wh7t3N3/555.jpg",
-        "price": "30.00",
+        "title": "We deliver what we promise.",
+        "img": "https://i.ibb.co/2NmC8Lt/pexels-sevenstorm-juhaszimrus-575386.jpg",
+        "price": "$700/hr",
+        "brand": "Chevrolet",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
         "facility": [
             {
@@ -132,9 +137,10 @@
     {
         "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
-        "title": "Electrical System",
-        "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
-        "price": "20.00",
+        "title": "Purchase and unleash your dream drive.",
+        "img": "https://i.ibb.co/BNr4Knh/pexels-broderick-armbrister-6462662.jpg",
+        "price": "$1000/hr",
+        "brand": "Lamborghini",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
         "facility": [
             {
@@ -156,3 +162,4 @@
         ]
     }
 ]
+
