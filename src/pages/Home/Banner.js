@@ -6,35 +6,10 @@ import bently from "../../assets/bannar/bently-g4a6091ce0_1920.jpg";
 import mercedez from "../../assets/bannar/car-g74d203ab4_1920.jpg";
 import ferarri from "../../assets/bannar/ferrari-g477a65c82_1920.jpg";
 const Banner = () => {
-  const bannarData = [
-    {
-      image: audi,
-      id: 1,
-      prev: 6,
-      next: 2,
-    },
-    {
-      image: bently,
-      id: 2,
-      prev: 1,
-      next: 3,
-    },
-    {
-      image: mercedez,
-      id: 3,
-      prev: 2,
-      next: 3,
-    },
-    {
-      image: ferarri,
-      id: 4,
-      prev: 3,
-      next: 1,
-    },
-  ];
+
   return (
     <div>
-      <div className="carousel w-80%">
+      <div className="carousel w-full py-10">
         <div id="slide1" className="carousel-item relative w-full ">
           <div className="carousel-img">
             <img src={audi} className="w-full" alt="" />
@@ -69,7 +44,7 @@ const Banner = () => {
         </div>
         <div id="slide2" className="carousel-item relative w-full ">
           <div className="carousel-img">
-            <img src={mercedez} className="w-full" alt="" />
+            <img src={mercedez} className="" alt="" />
           </div>
           <div className="absolute flex justify-center transform -translate-y-1/2 left-5 right-5 top-1/3">
             <h1 className="text-white font-bold text-6xl">

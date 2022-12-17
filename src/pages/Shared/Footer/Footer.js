@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from "../../../assets/logo.svg"
+import logo from "../../../assets/Your car (100 × 100 px) (1).svg"
 
 const Footer = () => {
   return (
     <div>
         <footer className="footer py-32 px-9 mt-8 bg-black text-white">
   <div>
-    <img src={logo} alt="" />
+    <img src={logo} className="bg-white" alt="" />
     <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
   </div> 
   <div>
