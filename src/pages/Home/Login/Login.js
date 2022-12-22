@@ -1,17 +1,24 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import login from "../../../assets/log.jpg";
+import loginimg from "../../../assets/log.jpg";
 import { AuthContext } from "../../../context/AuthContext/AuthProvider";
 
 const Login = () => {
 
-  // const {createUser,} = useContext(AuthContext)
+  const {login} = useContext(AuthContext)
 
     const handleSubmit = event => {
         event.preventDefault();
         const form = event.target
         const email = form.email.value
         const password = form.password.value
+
+        login(email,password)
+        .then(result => {
+          const user = result.user;
+          console.log(user);
+        })
+        .then(err => console.log(err));
     }
 
 
@@ -20,7 +27,7 @@ const Login = () => {
       <div className="hero w-full">
         <div className="hero-content grid md:grid-cols-2 gap-10 flex-col  lg:flex-row">
           <div className="text-center  lg:text-left">
-            <img src={login} className="w-3/4" alt="" />
+            <img src={loginimg} className="w-3/4" alt="" />
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm mx-auto shadow-2xl bg-base-100 py-9">
             <form onSubmit={handleSubmit} className="card-body">
