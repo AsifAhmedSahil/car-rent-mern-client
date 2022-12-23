@@ -24,7 +24,9 @@ const Checkout = () => {
         customer:name,
         email,
         message,
-        phone
+        phone,
+        brand,
+        img
     }
 
        fetch("http://localhost:5000/bookings",{
