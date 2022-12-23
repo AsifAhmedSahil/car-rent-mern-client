@@ -5,7 +5,7 @@ import mer from "../../../assets/audi.jpg";
 import { toast } from "react-toastify";
 
 const Checkout = () => {
-  const { title, img, price ,_id} = useLoaderData();
+  const { brand,title, img, price ,_id} = useLoaderData();
   const { user } = useContext(AuthContext);
 
   const handleBooking =(e) =>{
@@ -40,7 +40,7 @@ const Checkout = () => {
         console.log(data)
         if(data.acknowledged){
             form.reset();
-            toast.success("Your Booking Successfull 🙂 ")
+            toast.success(`Your ${brand} Booking Successfully 🙂 `)
         }
        }
         )
