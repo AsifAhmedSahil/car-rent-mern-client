@@ -1,13 +1,15 @@
 import React from 'react'
 
-const BookingRow = ({booking}) => {
-    const {serviceName, price,customer ,brand,img,message} = booking;
+const BookingRow = ({booking,handleDelete}) => {
+    const {serviceName, price,customer ,brand,img,message,_id} = booking;
+
+    
   return (
    
         <tr>
         <th>
           <label>
-            <div className='btn btn-ghost'>X</div>
+            <button onClick={()=>handleDelete(_id)} className='btn btn-ghost'>X</button>
           </label>
         </th>
         <td>
@@ -33,7 +35,7 @@ const BookingRow = ({booking}) => {
         </td>
         <td>{serviceName}</td>
         <th>
-          <button className="btn btn-ghost btn-xs">{message}</button>
+          <div className="btn btn-ghost btn-xs">{message}</div>
         </th>
       </tr>
     
